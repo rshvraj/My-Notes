@@ -104,7 +104,6 @@ class _RegisterViewState extends State<RegisterView> {
                         context,
                         'invalid email',
                       );
-                      devtools.log('invalid email entered');
                     } else {
                       await showErrorDialog(
                         context,
